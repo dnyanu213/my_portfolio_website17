@@ -1,0 +1,287 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#header {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: #000000;
+  padding: 100px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #fa8806;
+}
+
+.header-text {
+  margin-left: 800px;
+}
+
+.header-text p {
+  font-size: 30px;
+  margin-left: 500p;
+  color: rgb(255, 255, 255);
+}
+
+.header-text h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.header-text span {
+  color: #ff7b00;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #db34b7, #2ecc71);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #b9b929, #27ae60);
+}
+
+#about {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.about-col1 img {
+  border-radius: 50%;
+}
+
+.about-col2 {
+  margin-left: 50px;
+}
+
+.tab-titles {
+  margin-top: 20px;
+}
+
+.tab-links {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.tab-links:hover {
+  background: linear-gradient(45deg, #2980b9, #27ae60);
+}
+
+.tab-contents {
+  margin-top: 20px;
+}
+
+#Services {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.sub-title {
+  color: #000000;
+}
+.sub-title1 {
+  color: #000000;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.services-list div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  margin: 0 10px;
+  background: linear-gradient(45deg, #ae7f27, #3498db);
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.services-list div:hover {
+  background: linear-gradient(45deg, #219b56, #2980b9);
+}
+
+.services-list i {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#portfolio {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.sub-title1 {
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+.work-list {
+  display:inline-flexbox;
+  justify-content: space-between;
+  margin-bottom: px;
+}
+
+.work {
+  flex: 1;
+  position: relative;
+  margin: 10px;
+}
+
+.layer {
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  
+  transition: opacity 0.3s ease-in-out;
+}
+
+.work:hover .layer {
+  opacity: 1;
+}
+
+.layer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.layer p {
+  font-size: 16px;
+}
+
+.layer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.layer a:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.contact-left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 100px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ecf0f1;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right input,
+.contact-right textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+}
+
+.contact-right button {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #e73ce7, #c0392b);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.contact-right button:hover {
+  background: linear-gradient(45deg, #c0392b, #a93226);
+}
+
+.Dnyaneshwari {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Dnyaneshwari p {
+  font-size: 14px;
+  color: #bdc3c7;
+}
+
+.fa-solid,
+.fa-sharp,
+.fa-brands {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.fa-solid:hover,
+.fa-sharp:hover,
+.fa-brands:hover {
+  color: #3498db;
+}
